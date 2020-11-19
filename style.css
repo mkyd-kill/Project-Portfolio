@@ -33,6 +33,7 @@
     font-weight: 400;
     line-height: 1.4;
     color: var(--main-white);
+    scroll-behavior: smooth !important;
   }
 
   .container {
@@ -288,10 +289,6 @@
   footer > p {
     margin: 2rem;
   }
-  
-  footer i {
-    vertical-align: middle;
-  }
 
   
   /* media responsiveness and screen */
@@ -316,6 +313,7 @@
       background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
       background-image: none;
       border-radius: 0 0 9px 9px;
+      box-sizing: border-box;
     }
 
     .intro {
@@ -366,6 +364,7 @@
       background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
       background-image: none;
       border-radius: 0 0 9px 9px;
+      box-sizing: border-box;
     }
 
     .intro {
